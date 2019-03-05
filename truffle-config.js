@@ -157,7 +157,7 @@ module.exports = {
             network_id: "*",       // Any network (default: none)
         },
         rinkeby:{
-            provider: function(){return new HDWalletProvider("gentle rice dutch drift setup gas faith unique skill tragic cradle scare",infuraKey) ;},
+            provider: function(){return new HDWalletProvider("gentle rice dutch drift setup gas faith unique skill tragic cradle scare",infuraKey)},
             network_id:'*',
             gas:4500000,
             gasPrice:1000000000,
@@ -210,4 +210,4 @@ module.exports = {
             // }
         }
     }
-}
+}}
